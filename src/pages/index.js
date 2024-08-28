@@ -1,7 +1,8 @@
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
-import profilePic from '../../public/images/profile/pic.png'
+import profilePic from '../../public/images/profile/profile.jpeg'
+import AnimatedText from '@/components/AnimatedText'
 
 export default function Home() {
   return (
@@ -14,11 +15,11 @@ export default function Home() {
         <Layout className='pt-0'>
           <div className='flex items-center justify-between w-full'>
             <div className='w-1/2'>
-              <Image src={profilePic} alt='mechatron97' className='w-full h-auto' />
+              <Image src={profilePic} alt='mechatron97' className='w-full h-auto pr-10' />
             </div>
-            <div className='w-1/2'>
-              <h1 className=''>Transforming Ideas into Digital Reality with Code and Design.</h1>
-              <p className=''>As a passionate software developer, I specialize in building robust and innovative web applications. Discover my latest projects and articles, where I showcase my skills in React.js, Node.js, and full-stack development.</p>
+            <div className='w-1/2 flex flex-col items-center self-center'>
+              <AnimatedText text="Turning Ideas into Digital Reality." className='!text-6xl !text-left' />
+              <p>As a passionate software developer, I specialize in building robust and innovative web applications. Discover my latest projects and articles, where I showcase my skills in React.js, Node.js, and full-stack development.</p>
             </div>
           </div>
         </Layout>
