@@ -1,120 +1,71 @@
-HOME PAGE: 
-
-- Turning Vision Into Reality With Code And Design. 
-- As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
-Explore my latest projects and articles, showcasing my expertise in React.js and web development.
-
---------------------------------------------------------------
+HOME PAGE:
+Transforming Ideas into Digital Reality with Code and Design.
+As a passionate software developer, I specialize in building robust and innovative web applications. Discover my latest projects and articles, where I showcase my skills in React.js, Node.js, and full-stack development.
 
 ABOUT PAGE:
+Turning Passion into Purpose!
+Hi, I'm Sriharsh Sai, a software developer with a keen interest in creating efficient and user-friendly digital experiences. With several years of experience in the industry, I am constantly seeking new ways to bring ideas to life through code.
+I believe that development is about more than just writing code—it's about solving real-world problems and crafting seamless user experiences. Whether it's developing a web application, building a mobile app, or working on backend services, I bring a dedication to quality and a user-focused mindset to every project. Let's build something amazing together!
 
-- Passion Fuels Purpose! 
-- Hi, I'm CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
-and user-centered digital experiences. With 4 years of experience in the field. I am always looking for 
-new and innovative ways to bring my clients' visions to life.
+EXPERIENCE:
+Software Developer @ Bapoo Pizza
+Jan 2023 - Present | Remote
 
-- I believe that design is about more than just making things look pretty – it's about solving problems and 
-creating intuitive, enjoyable experiences for users. 
+Developed a pizza store website using ASP.NET Core, MySQL, and C#.
+Managed the code repository using GitHub and VSCode.
+Deployed the project using Microsoft Azure.
 
-- Whether I'm working on a website, mobile app, or 
-other digital product, I bring my commitment to design excellence and user-centered thinking to 
-every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
+Software Developer @ Digy4
+Jul 2021 - Oct 2022 | Remote
 
---------------------------------------------------------------
+Created a CRM application with NodeJS, Express, MongoDB, and EJS.
+Implemented automated testing frameworks using TestNG and Selenium.
+Worked with Confluence and Jira for project management and storyboarding.
+Frontend Web Developer @ Evolve Branding
 
-EXPERIENCE: 
+Apr 2020 - Jun 2021 | Remote
 
-Software Engineer @Google
-2022-Present | Mountain View, CA
-Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization.
+Worked as a Front-End Developer for Worldwide Bee Apiaries.
+Built the website frontend using ReactJS, Bootstrap, and Tailwind CSS.
+Integrated Eventbrite API for seamless event management.
 
-Intern @Facebook
-Summer 2021 | Menlo Park, CA.
-Worked on a team responsible for developing a new mobile app feature that allowed users to create and 
-share short-form video content, including designing and implementing a new user interface and developing 
-the backend infrastructure to support the feature.
+Junior Developer @ Web Vertical Domains
+Jan 2020 - Apr 2020 | Remote
 
-Software Developer @Amazon
-2020-2021 | Seattle, WA.
-Worked on a team responsible for developing Amazon's mobile app, including implementing new features such 
-as product recommendations and user reviews, and optimizing the app's performance and reliability.
+Designed and maintained websites using WordPress and Joomla.
+Worked on database configurations and troubleshooting.
+Communicated with clients to understand project requirements and deliver solutions.
 
-Software Developer Intern @Microsoft
-Summer 2019 | Redmond, WA.
-Worked on a team responsible for developing new features for Microsoft's Windows operating system, 
-including implementing a new user interface for a system settings panel and optimizing the performance of 
-a core system component.
+Web Development Intern @ Dear Life
+Feb 2019 - Dec 2019 | Remote
 
-Teaching Assistant @MIT
-Fall 2018 | Massachusetts Ave, Cambridge, MA.
-Assisted in teaching a course on computer programming, held office hours to help students with assignments, 
-and graded exams and assignments.
-
-
---------------------------------------------------------------
+Gained hands-on experience with JavaScript, HTML5, and CSS3.
+Contributed to database management using MySQL.
 
 EDUCATION:
+Dalhousie University
+Sep 2016 - May 2019 | Computer Engineering
 
-Bachelor Of Science In Computer Science
-2016-2020 | Massachusetts Institute Of Technology (MIT)
-Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-Intelligence.
-
-Master Of Computer Science
-2020-2022 | Stanford University
-Completed a master's project on deep learning, developing a new neural network architecture for natural 
-language understanding.
-
-Online Coursework
-2016-2020 | Coursera And EdX
-Completed coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Machine 
-Learning Engineering.
-
---------------------------------------------------------------
+CERTIFICATIONS:
+Advanced Social Media Strategy Training and Certification
+HubSpot | Issued Aug 2022 - Expires Sep 2024
 
 PROJECTS PAGE:
+Imagination Meets Implementation!
 
-- Imagination Trumps Knowledge!
+SportsBuddy - iOS App
+Mar 2024 - Present
 
-Crypto Screener Application
-A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency.
+Developed a sports social media app aimed at connecting athletes and sports clubs within a specific geographic radius.
+Implemented categorization features to group users by specific sports and relevant events happening at nearby sports clubs.
+Built using React Native, Expo Go, and React Native UI components to ensure a smooth and intuitive user experience.
+Integrated third-party authentication for seamless sign-up and sign-in using Google and Facebook.
 
-React Portfolio Website
-A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth 
-page transitions, cool background effects, unique design and it is mobile responsive.
+Sales Alert - QuickBooks Online App
+Sep 2023 - Nov 2023
 
---------------------------------------------------------------
-
-ARTICLES PAGE:
-
-- Words Can Change The World! 
-
-Build A Custom Pagination Component In Reactjs From Scratch
-Learn how to build a custom pagination component in ReactJS from scratch. 
-Follow this step-by-step guide to integrate Pagination component in your ReactJS project.
-9 min read
-
-Creating Stunning Loading Screens In React: Build 3 Types Of Loading Screens
-Learn how to create stunning loading screens in React with 3 different methods. 
-Discover how to use React-Loading, React-Lottie & build a custom loading screen. 
-Improve the user experience.
-10 min read
-
-Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling
-
-Silky Smooth Scrolling In Reactjs: A Step-By-Step Guide For React Developers
-
-Creating An Efficient Modal Component In React Using Hooks And Portals
-
-Build A Fabulous Todo List App With React, Redux And Framer-Motion
-
-Redux Simplified: A Beginner's Guide For Web Developers
-
-What Is Higher Order Component (Hoc) In React?
-
-
-
+Created an Inventory & ERP system tailored for QuickBooks Online, utilizing PHP, JavaScript, and MySQL.
+Developed a comprehensive set of features, including inventory management, sales tracking, purchasing, vendor management, customer relations, and business analytics.
+Focused on tracking customers with the fewest transactions/orders to help businesses identify and engage with at-risk customers.
+Offered in two versions, Lite and Premium, with varying feature sets to cater to different business needs.
+Included CRM functionality to manage customer relationships effectively. Reach out for a demo and more information.
