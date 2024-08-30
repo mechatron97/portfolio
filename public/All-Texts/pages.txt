@@ -3,9 +3,13 @@ Transforming Ideas into Digital Reality with Code and Design.
 As a passionate software developer, I specialize in building robust and innovative web applications. Discover my latest projects and articles, where I showcase my skills in React.js, Node.js, and full-stack development.
 
 ABOUT PAGE:
-Turning Passion into Purpose!
-Hi, I'm Sriharsh Sai, a software developer with a keen interest in creating efficient and user-friendly digital experiences. With several years of experience in the industry, I am constantly seeking new ways to bring ideas to life through code.
-I believe that development is about more than just writing code—it's about solving real-world problems and crafting seamless user experiences. Whether it's developing a web application, building a mobile app, or working on backend services, I bring a dedication to quality and a user-focused mindset to every project. Let's build something amazing together!
+Turning Passion into Purpose
+Hi, I'm Sriharsh Sai, a software developer with a keen interest in creating efficient and user-friendly digital experiences. 
+With several years of experience in the industry, I am constantly seeking new ways to bring ideas to life through code.
+
+I believe that development is about more than just writing code—it's about solving real-world problems and crafting seamless user experiences. 
+Whether it's developing a web application, building a mobile app, or working on backend services, I bring a dedication to quality and a user-focused mindset to every project. 
+Let's build something amazing together!
 
 EXPERIENCE:
 Software Developer @ Bapoo Pizza
