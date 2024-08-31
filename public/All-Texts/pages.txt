@@ -14,7 +14,6 @@ Let's build something amazing together!
 EXPERIENCE:
 Software Developer @ Bapoo Pizza
 Jan 2023 - Present | Remote
-
 Developed a pizza store website using ASP.NET Core, MySQL, and C#.
 Managed the code repository using GitHub and VSCode.
 Deployed the project using Microsoft Azure.
@@ -25,6 +24,7 @@ Jul 2021 - Oct 2022 | Remote
 Created a CRM application with NodeJS, Express, MongoDB, and EJS.
 Implemented automated testing frameworks using TestNG and Selenium.
 Worked with Confluence and Jira for project management and storyboarding.
+
 Frontend Web Developer @ Evolve Branding
 
 Apr 2020 - Jun 2021 | Remote

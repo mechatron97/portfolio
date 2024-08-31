@@ -1,8 +1,38 @@
 import AnimatedText from '@/components/AnimatedText'
 import Layout from '@/components/Layout'
 import Head from 'next/head'
-import React from 'react'
+import Image from 'next/image'
+import React, { useEffect, useRef } from 'react'
+import profilePic from '../../public/images/profile/pic.jpg'
+import { useInView, useMotionValue, useSpring } from 'framer-motion'
+import Skills from '@/components/Skills'
+import Experience from '@/components/Experience'
 
+const AnimatedNumber = ({value}) => {
+  const ref = useRef(null);
+
+  const motionValue = useMotionValue(0);
+  const springValue = useSpring(motionValue, {duration: 3000});
+  const isInView = useInView(ref, {once: true});
+
+  useEffect(() => {
+    if (isInView) {
+      motionValue.set(value);
+    }
+  }, [isInView, value, motionValue])
+
+  useEffect(() => {
+    springValue.on("change", (latest) => {
+      if (ref.current && latest.toFixed(0) <= value) {
+        ref.current.textContent = latest.toFixed(0)
+      }
+    })
+  }, [springValue, value])
+
+  return (
+    <span ref={ref} className='mr-2 text-7xl font-bold'>{value}</span>
+  )
+}
 const about = () => {
   return (
     <>
@@ -12,21 +42,57 @@ const about = () => {
     </Head>
     <main className='flex items-center flex-col justify-center w-full'>
         <Layout className='pt-16'>
-        <AnimatedText text="Turning Passion into Purpose" className='text-6xl' />
+        <AnimatedText text="Turning Passion into Purpose" className='mb-16' />
         <div className='grid w-full grid-cols-8 gap-16'>
             <div className='col-span-3 flex flex-col items-start justify-start'>
                 <h2 className='mb-4 text-lg font-bold uppercase text-dark/75'>About</h2>
-                <p>
+                <p className='font-medium'>
                 Hi, I&apos;m Sriharsh Sai, a software developer with a keen interest in creating efficient and user-friendly digital experiences. 
                 With several years of experience in the industry, I am constantly seeking new ways to bring ideas to life through code.
                 </p>
-                <p>
+                <p className='my-4 font-medium'>
                 I believe that development is about more than just writing code—it&apos;s about solving real-world problems and crafting seamless user experiences. 
-                Whether it&apos;s developing a web application, building a mobile app, or working on backend services, I bring a dedication to quality and a user-focused mindset to every project. 
+                </p>
+                <p className='font-medium'>
+                Whether it&apos;s developing a web application, building a mobile app, or working on backend services, I bring dedication to quality and a user-focused mindset to every project. 
                 Let&apos;s build something amazing together!
                 </p>
             </div>
+            <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8'>
+                <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-2xl bg-dark' />
+                <Image src={profilePic} alt='mechatron97' className='w-full h-auto rounded-2xl' />
+            </div>
+            <div className='col-span-2 flex flex-col items-end justify-between'>
+              <div className='flex flex-col items-end justify-center'>
+                <span className='inline-block text-7xl font-bold'>
+                  <AnimatedNumber value={50} />+
+                </span>
+                <h2 className='text-xl font-medium capitalize text-dark/75'>
+                  Satisfied Clients
+                </h2>
+              </div>
+
+              <div className='flex flex-col items-end justify-center'>
+                <span className='inline-block text-7xl font-bold'>
+                <AnimatedNumber value={40} />+
+                </span>
+                <h2 className='text-xl font-medium capitalize text-dark/75'>
+                  Projects Completed
+                </h2>
+              </div>
+
+              <div className='flex flex-col items-end justify-center'>
+                <span className='inline-block text-7xl font-bold'>
+                <AnimatedNumber value={5} />+
+                </span>
+                <h2 className='text-xl font-medium capitalize text-dark/75'>
+                  Years Of Experience
+                </h2>
+              </div>
+            </div>
         </div>
+        <Skills />
+        <Experience />
         </Layout>
     </main>
     </>
