@@ -27,7 +27,7 @@ const NavBar = () => {
             <CustomLink href='/' title="Home" className='mr-4' />
             <CustomLink href='/about' title="About" className='mx-4' />
             <CustomLink href='/projects' title="Projects" className='mx-4' />
-            <CustomLink href='/contact' title="Contact" className='ml-4' />
+            <CustomLink href='mailto:sriharsh1997@gmail' title="Contact" className='ml-4' />
         </nav>
         <nav className='flex items-center justify-center flex-wrap'>
             <motion.a href='https://www.linkedin.com/in/sriharsh-sai-018018107/' target='_blank'
