@@ -47,15 +47,15 @@ Gained hands-on experience with JavaScript, HTML5, and CSS3.
 Contributed to database management using MySQL.
 
 EDUCATION:
-Dalhousie University
-Sep 2016 - May 2019 | Computer Engineering
+Computer Engineering
+Sep 2015 - May 2019 | Dalhousie University
 
 CERTIFICATIONS:
 Advanced Social Media Strategy Training and Certification
 HubSpot | Issued Aug 2022 - Expires Sep 2024
 
 PROJECTS PAGE:
-Imagination Meets Implementation!
+Imagination Meets Implementation
 
 SportsBuddy - iOS App
 Mar 2024 - Present
