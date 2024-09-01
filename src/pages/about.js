@@ -8,6 +8,9 @@ import { useInView, useMotionValue, useSpring } from 'framer-motion'
 import Skills from '@/components/Skills'
 import Experience from '@/components/Experience'
 import Education from '@/components/Education'
+import { motion } from 'framer-motion'
+
+const FramerImage = motion(Image);
 
 const AnimatedNumber = ({value}) => {
   const ref = useRef(null);
@@ -61,7 +64,8 @@ const about = () => {
             </div>
             <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8'>
                 <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-2xl bg-dark' />
-                <Image src={profilePic} alt='mechatron97' className='w-full h-auto rounded-2xl' />
+                <FramerImage src={profilePic} alt='mechatron97' className='w-full h-auto rounded-2xl'
+                whileHover={{scale:1.05}} transition={{duration: 0.2}} />
             </div>
             <div className='col-span-2 flex flex-col items-end justify-between'>
               <div className='flex flex-col items-end justify-center'>

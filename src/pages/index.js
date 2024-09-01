@@ -7,6 +7,9 @@ import Link from 'next/link'
 import { LinkArrow } from '@/components/Icons'
 import HireMe from '@/components/HireMe'
 import lightBulb from '../../public/images/svgs/miscellaneous_icons_1.svg'
+import { motion } from 'framer-motion'
+
+const FramerImage = motion(Image);
 
 export default function Home() {
   return (
@@ -17,9 +20,11 @@ export default function Home() {
       </Head>
       <main className='flex items-center text-dark w-full min-h-screen'>
         <Layout className='pt-0'>
-          <div className='flex items-center justify-between w-full'>
-            <div className='w-1/2'>
-              <Image src={profilePic} alt='mechatron97' className='w-full h-auto pr-10' />
+          <div className='flex items-center justify-between w-full gap-16'>
+            <div className='relative w-1/2 flex-col h-auto rounded-2xl border-2 border-solid border-dark bg-light p-8'>
+                <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-2xl bg-dark' />
+                <FramerImage src={profilePic} alt='mechatron97' className='w-full h-auto rounded-2xl'
+                whileHover={{scale:1.05}} transition={{duration: 0.2}} />
             </div>
             <div className='w-1/2 flex flex-col items-center self-center'>
               <AnimatedText text="Turning Ideas into Digital Reality." className='!text-6xl !text-left' />

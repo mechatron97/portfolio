@@ -2,6 +2,8 @@
 
 import { fontFamily } from 'tailwindcss/defaultTheme';
 
+export const darkMode = 'class'; // Move darkMode to the top level
+
 export const content = [
   "./src/**/*.{js,ts,jsx,tsx,mdx}",
 ];
@@ -23,8 +25,9 @@ export const theme = {
       primary: "#B63E96", // 240,86,199
       primaryDark: "#58E6D9", // 80,230,217
     },
-    plugins: [require("tailwindcss-animate")],
   },
 };
-export const plugins = [];
 
+export const plugins = [
+  require("tailwindcss-animate"),
+];
