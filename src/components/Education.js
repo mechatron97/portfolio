@@ -53,7 +53,7 @@ const Education = () => {
             <Details
             type='Advanced Social Media Strategy Training and Certification'
             place={'HubSpot'}
-            time='Aug 2022 - Expires Sep 2024'
+            time='Aug 2022 - Present'
             />
         </ul>
     </div>
