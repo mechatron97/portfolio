@@ -74,9 +74,9 @@ const projects = () => {
             <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                 <div className='col-span-12'>
                     <FeaturedProject
-                    type="iOS App"
+                    type="Mobile App"
                     title="SportsBuddy"
-                    summary="Sports social media iOS app aimed at connecting athletes and sports clubs within a specific geographic radius.
+                    summary="Sports social media mobile app aimed at connecting athletes and sports clubs within a specific geographic radius.
 Built using React Native, Expo Go, and React Native UI components to ensure a smooth and intuitive user experience."
                     img={project1}
                     link="#"
