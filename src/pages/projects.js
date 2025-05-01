@@ -5,15 +5,14 @@ import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 import Image from 'next/image'
 import project1 from '../../public/images/projects/project1.jpg'
-import project2 from '../../public/images/projects/project2.png'
+import project2 from '../../public/images/projects/project2.JPG'
 import project3 from '../../public/images/projects/project3.png'
-import { GithubIcon } from '@/components/Icons'
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
 
 const FramerImage = motion(Image);
 
-const FeaturedProject = ({type, title, summary, img, link}) => {
+const FeaturedProject = ({type, title, summary, img}) => {
     return (
         <article className='w-full flex items-center justify-between relative rounded-br-2xl rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12 dark:bg-dark dark:border-light dark:text-light
         lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4'>
@@ -85,10 +84,9 @@ Built using React Native, Expo Go, and React Native UI components to ensure a sm
                 </div>
                 <div className='col-span-6 sm:col-span-12'>
                 <Project
-                    type="QuickBooks Online App"
-                    title=""
-                    summary="Inventory & ERP system tailored for QuickBooks Online, utilizing PHP, JavaScript, and MySQL.
-Includes CRM functionality to manage customer relationships effectively. Reach out for a demo and more information."
+                    type="Windows Desktop App"
+                    title="CRM Desktop App"
+                    summary="CRM Desktop App is a lightweight, offline-first client management system built with .NET MAUI and SQLite for Windows desktops. Key features include client import/export via CSV, editable client profiles, and automatic update detection during data import. Designed with a clean, user-friendly interface, the app is ideal for small businesses or professionals who need a simple, reliable CRM without requiring internet access. Reach out for a demo and more information."
 link={"#"}                    
 img={project2}
                     />
