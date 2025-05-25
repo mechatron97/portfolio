@@ -75,7 +75,7 @@ const projects = () => {
                 <div className='col-span-12'>
                     <FeaturedProject
                     type="Desktop App"
-                    title="Scheduling"
+                    title="Scheduling App"
                     summary="Desktop-based appointment manager built in C++ on Windows for listing, creating, editing and deleting appointments"
                     img={project1}
                     link="#"
