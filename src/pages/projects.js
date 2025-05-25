@@ -77,7 +77,7 @@ const projects = () => {
                     type="Desktop App"
                     title="Scheduling"
                     summary="Desktop-based appointment manager built in C++ on Windows for listing, creating, editing and deleting appointments"
-                    img={project2}
+                    img={project1}
                     link="#"
                     />
                 </div>
