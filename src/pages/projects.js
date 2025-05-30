@@ -91,13 +91,14 @@ img={project2}
                     />
                 </div>
                 <div className='col-span-6 sm:col-span-12'>
-                <Project
-                    type="Website"
-                    title="Anokhi Inspired Indian Dining"
-                    summary="Designed website for Anokhi Inspired Indian Dining, a group of Fine Dining restaurants in Ontario. Includes food & drinks menus for all 3 restaurant locations with photos and descriptions."
-                    link={"https://anokhi.ca/"}                    
-                    img={project3}
-                    />
+<Project
+  type="Website"
+  title="Melody Prabha – Vocalist & Singer"
+  summary="Designed and deployed the official portfolio site for Prabha Subhadra, renowned as the 'Lata Mangeshkar of UAE'. Highlights include performance types, media gallery, contact form with email automation, and SEO-optimized metadata."
+  link="https://melodyprabha.com"
+  img={project3} // Replace with your imported image reference
+/>
+
                 </div>
                 <div className='flex items-center justify-center col-span-12'>
                 </div>
