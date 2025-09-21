@@ -62,7 +62,7 @@ Built secure authentication and token refresh mechanisms for seamless third-part
             <Details
             position='Software Developer'
             company={'Bapoo Pizza'}
-            time='Jan 2023 - Present | Remote'
+            time='Jan 2023 - March 2024 | Remote'
             work='Developed a pizza store website using ASP.NET Core, MySQL, and C#.
 Managed the code repository using GitHub and VSCode.
 Deployed the project using Microsoft Azure.'
