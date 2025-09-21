@@ -48,6 +48,18 @@ const Experience = () => {
         md:w-[2px] md:left-[30px] xs:left-[20px]'/>
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
             <Details
+            position='Full Stack Developer'
+            company={'XceptAI'}
+            time='May 2024 – Present | Remote'
+            work='Engineered a scalable, AI-driven SMS automation platform using Node.js, TypeScript, Express, Twilio, and OpenAI APIs.
+Implemented SMS number rotation service to maximize delivery rates and avoid carrier limits.
+Integrated Google Calendar and Gmail APIs for automated appointment booking and email notifications.
+Designed PostgreSQL knowledge base with pgvector for AI-powered semantic search features.
+Established Dockerized microservices architecture with CI/CD pipelines and cloud deployment.
+Built secure authentication and token refresh mechanisms for seamless third-party integrations.'
+            />
+
+            <Details
             position='Software Developer'
             company={'Bapoo Pizza'}
             time='Jan 2023 - Present | Remote'
@@ -74,14 +86,6 @@ Built the website frontend using ReactJS, Bootstrap, and Tailwind CSS.
 Integrated Eventbrite API for seamless event management.'
             />
 
-<Details
-            position='Junior Developer'
-            company={'Web Vertical Domains'}
-            time='Jan 2020 - Apr 2020 | Remote'
-            work='Designed and maintained websites using WordPress and Joomla.
-Worked on database configurations and troubleshooting.
-Communicated with clients to understand project requirements and deliver solutions.'
-            />
         </ul>
     </div>
     </div>
