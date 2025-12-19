@@ -74,11 +74,11 @@ const projects = () => {
             <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                 <div className='col-span-12'>
                     <FeaturedProject
-                    type="Desktop App"
-                    title="Scheduling App"
-                    summary="Desktop-based appointment manager built in C++ on Windows for listing, creating, editing and deleting appointments"
+                    type="Web App"
+                    title="Lotus Fusion Booth Booking App"
+                    summary="Lotus Fusion is a web application that streamlines the process of booking and managing booths at events. It offers a user-friendly interface for booth owners to list their booths, view availability, and manage bookings. The app also provides event organizers with tools to manage booth assignments, payments, and communications."
                     img={project1}
-                    link="#"
+                    link="https://lotusfusionexpo.com"
                     />
                 </div>
                 <div className='col-span-6 sm:col-span-12'>
