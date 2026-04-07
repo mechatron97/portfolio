@@ -50,11 +50,11 @@ const Education = () => {
             place={'Dalhousie University'}
             time='Sep 2015 - May 2019'
             />
-            <Details
+            {/* <Details
             type='Advanced Social Media Strategy Training and Certification'
             place={'HubSpot'}
             time='Aug 2022 - Present'
-            />
+            /> */}
         </ul>
     </div>
     </div>
