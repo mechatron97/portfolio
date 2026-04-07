@@ -47,6 +47,18 @@ const Experience = () => {
         <motion.div style={{scaleY: scrollYProgress}} className='absolute left-7 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light
         md:w-[2px] md:left-[30px] xs:left-[20px]'/>
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
+                        <Details
+            position='Software Engineer'
+            company={'SpinSci Technologies LLC'}
+            time='Jan 2026 - Present | Hybrid'
+            work='Architecting and integrating mission-critical health-tech applications utilizing a high-performance stack of JavaScript, React, and Node.js to deliver scalable business solutions. 
+Implementing resilient microservices and serverless logic via AWS Lambda and Docker to optimize system performance and resource efficiency across distributed healthcare environments.
+Translating complex clinical requirements and healthcare operational specifications into functional system designs and robust, product-based architectures.
+Managing high-concurrency integrations with PostgreSQL relational databases, ensuring absolute data accuracy for patient records and resolving intricate backend performance bottlenecks.
+Maintaining high-availability applications through disciplined Git-based version control, implementing secure code updates and troubleshooting production environments to meet rigorous compliance standards.
+Providing high-level technical guidance and subject matter expertise in emerging technologies to ensure the delivery of scalable, secure, and efficient software.'
+            />
+            
             <Details
             position='Full Stack Developer'
             company={'XceptAI'}
@@ -57,15 +69,6 @@ Integrated Google Calendar and Gmail APIs for automated appointment booking and 
 Designed PostgreSQL knowledge base with pgvector for AI-powered semantic search features.
 Established Dockerized microservices architecture with CI/CD pipelines and cloud deployment.
 Built secure authentication and token refresh mechanisms for seamless third-party integrations.'
-            />
-
-            <Details
-            position='Software Developer'
-            company={'Bapoo Pizza'}
-            time='Jan 2023 - March 2024 | Remote'
-            work='Developed a pizza store website using ASP.NET Core, MySQL, and C#.
-Managed the code repository using GitHub and VSCode.
-Deployed the project using Microsoft Azure.'
             />
 
 <Details
