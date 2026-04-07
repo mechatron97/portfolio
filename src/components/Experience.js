@@ -62,7 +62,7 @@ Providing high-level technical guidance and subject matter expertise in emerging
             <Details
             position='Full Stack Developer'
             company={'XceptAI'}
-            time='May 2024 – January 2026 | Remote'
+            time='November 2024 – January 2026 | Remote'
             work='Engineered a scalable, AI-driven SMS automation platform using Node.js, TypeScript, Express, Twilio, and OpenAI APIs.
 Implemented SMS number rotation service to maximize delivery rates and avoid carrier limits.
 Integrated Google Calendar and Gmail APIs for automated appointment booking and email notifications.
