@@ -1,42 +1,50 @@
-# Next.Js Website Tutorial: Create a Stunning Portfolio Website with Nextjs, Tailwind CSS and Framer-motion 
+# Sriharsh Sai : Personal Portfolio
 
-![GitHub stars](https://img.shields.io/github/stars/codebucks27/Next.js-Developer-Portfolio-Starter-Code?style=social&logo=ApacheSpark&label=Stars)&nbsp;&nbsp;
-![GitHub forks](https://img.shields.io/github/forks/codebucks27/Next.js-Developer-Portfolio-Starter-Code?style=social&logo=KashFlow&maxAge=3600)&nbsp;&nbsp;
-![Github Followers](https://img.shields.io/github/followers/codebucks27.svg?style=social&label=Follow)&nbsp;&nbsp;<br />
+The open-source repository for my personal portfolio website, showcasing my experience, tech stack, and engineering projects as a Full-Stack Software Engineer. 
 
-This repository contains starter code for Portfolio website created using NextJs. <br />
+This codebase is public to provide transparent documentation of my development process, component design, and project architecture.
 
-For Demo and Final Code checkout following link👇: <br />
-[Nextjs Portfolio Website](https://devdreaming.com//videos/nextjs-tutorial-build-portfolio-tailwind-css-framer-motion#code-links) <br />
-
-If you want to learn how to create it please follow below tutorial👇: <br />
-https://youtu.be/Yw7yWHigGKI <br />
-[![YouTube Video Views](https://img.shields.io/youtube/views/Yw7yWHigGKI?style=social)](https://youtu.be/Yw7yWHigGKI)<br />
-
-### Images of The Portfolio Website:
-
-![Nextjs Portfolio Website](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/home-light-desktop.png)
-![Nextjs Portfolio Website Dark Mode](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/home-dark-desktop.png)
-![Next.js Portfolio Website](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/about-light-desktop.png)
-![Next js Portfolio Website](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/projects-dark-desktop.png)
-![Portfolio Website In Next.js](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/articles-light-desktop.png)
-![Responsive Portfolio Website In Nextjs](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/about-light-mobile.png)
-![Responsive Portfolio Website In Next js](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/projects-light-mobile.png)
-![Mobile Responsive Portfolio Website In Next.js](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/articles-light-mobile.png)
+🔗 **Live Production Link:** https://portfolio-sandy-chi-50.vercel.app
 
 
-### Resources Used in This Project
+## 🛠️ Tech Stack & Implementation
 
-- Profile image in the home page created by using https://www.midjourney.com/ tool.
-- Profile image in the about page by [Albert Dera](https://unsplash.com/@albertdera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) 
-on [Unsplash](https://unsplash.com/photos/ILip77SbmOE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
-- Fonts from https://fonts.google.com/ <br />
-- Icons from https://iconify.design/ <br />
-- LightBulb Svg from https://lukaszadam.com/illustrations <br />
+*   **Frontend:** React.js (Component-driven architecture, modular layouts, responsive UI)
+*   **Backend Support:** Node.js
+*   **Hosting & CI/CD:** Vercel (Configured with continuous deployment pipelines)
 
-### External Libraries used in this project:
 
-- [framer-motion](https://www.framer.com/motion/) <br />
-- [Tailwind css](https://tailwindcss.com/) <br />
+## 🏗️ Architecture & Development Process
 
-### Deployed to Vercel
+The repository is structured to prioritize code legibility, modularity, and clean version control. It was built incrementally over a 6-day period, focusing on a few core design principles:
+
+1.  **Component Reusability:** Breaking down layout elements (headers, footers, project cards) into isolated, single-responsibility React components.
+2.  **State & Layout Integrity:** Utilizing standard React hooks for view management alongside a fluid layout engine that adapts to mobile, tablet, and desktop viewports.
+3.  **Performant Asset Loading:** Ensuring fast initial paint times and low runtime overhead through clean asset paths and minimal dependencies.
+
+
+## 🗂️ Core Projects Highlighted
+
+The site serves as a portal to explore my technical background, including:
+
+### 1. Lotus Fusion Booth Booking App
+*   **Overview:** A full-stack web application designed to streamline the event logistics ecosystem. 
+*   **Features:** Provides standalone portals for booth owners to list availability and event organizers to coordinate space assignments, process workflows, and manage cross-user communications.
+
+### 2. CRM Desktop App
+*   **Overview:** A lightweight, offline-first native Windows client management system built to operate independently of internet access.
+*   **Features:** Developed with **.NET MAUI** and **SQLite**, incorporating local database parsing, robust CSV import/export pipelines, automated data validation, and clean profile editing modules.
+
+
+## ⏳ Development Lifecycle
+
+The repository's commit history reflects an iterative, step-by-step building process over 6 days (averaging roughly 2 hours of development per session):
+*   **Phase 1:** Core framework initialization, asset structuring, and base global theme configurations.
+*   **Phase 2:** Component modularization, routing execution, and project portfolio data schema mapping.
+*   **Phase 3:** Mobile-first layout adjustments, cross-browser compatibility handling, and Vercel edge deployment optimization.
+
+
+## 📬 Contact & Inquiries
+
+*   **Engineer:** Sriharsh Sai
+*   **Email:** sriharsh1997@gmail.com
