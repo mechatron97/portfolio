@@ -38,7 +38,7 @@ The site serves as a portal to explore my technical background, including:
 
 ## ⏳ Development Lifecycle
 
-The repository's commit history reflects an iterative, step-by-step building process over 6 days (averaging roughly 2 hours of development per session):
+The repository's commit history reflects an iterative, step-by-step building process:
 *   **Phase 1:** Core framework initialization, asset structuring, and base global theme configurations.
 *   **Phase 2:** Component modularization, routing execution, and project portfolio data schema mapping.
 *   **Phase 3:** Mobile-first layout adjustments, cross-browser compatibility handling, and Vercel edge deployment optimization.
