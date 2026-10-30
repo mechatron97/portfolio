@@ -16,7 +16,7 @@ This codebase is public to provide transparent documentation of my development p
 
 ## 🏗️ Architecture & Development Process
 
-The repository is structured to prioritize code legibility, modularity, and clean version control. It was built incrementally over a 6-day period, focusing on a few core design principles:
+The repository is structured to prioritize code legibility, modularity, and clean version control. It was built incrementally, focusing on a few core design principles:
 
 1.  **Component Reusability:** Breaking down layout elements (headers, footers, project cards) into isolated, single-responsibility React components.
 2.  **State & Layout Integrity:** Utilizing standard React hooks for view management alongside a fluid layout engine that adapts to mobile, tablet, and desktop viewports.
