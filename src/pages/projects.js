@@ -84,8 +84,8 @@ const projects = () => {
                 <div className='col-span-6 sm:col-span-12'>
                 <Project
                     type="Windows Desktop App"
-                    title="CRM Desktop App"
-                    summary="CRM Desktop App is a lightweight, offline-first client management system built with .NET MAUI and SQLite for Windows desktops. Key features include client import/export via CSV, editable client profiles, and automatic update detection during data import. Designed with a clean, user-friendly interface, the app is ideal for small businesses or professionals who need a simple, reliable CRM without requiring internet access. Reach out for a demo and more information."
+                    title="BuzzHive CRM — Windows Desktop CRM"
+                    summary="An offline-first client management and analytics application engineered with .NET 9, .NET MAUI (MVVM), and SQLCipher-encrypted SQLite. Built for data-sensitive businesses, BuzzHive CRM features dynamic custom field management, high-speed multi-criteria filtering (Syncfusion DataGrid), an analytics reporting dashboard, search history tracking, audit logs, and automated database backups. Includes MailKit-powered SMTP automation for one-click subscription renewal alerts and password-protected CSV data portability."
 link={"#"}                    
 img={project2}
                     />
