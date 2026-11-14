@@ -75,8 +75,8 @@ const projects = () => {
                 <div className='col-span-12'>
                     <FeaturedProject
                     type="Web App"
-                    title="Lotus Fusion Booth Booking App"
-                    summary="Lotus Fusion is a web application that streamlines the process of booking and managing booths at events. It offers a user-friendly interface for booth owners to list their booths, view availability, and manage bookings. The app also provides event organizers with tools to manage booth assignments, payments, and communications."
+                    title="Lotus Fusion – Event Booth Booking Platform"
+                    summary="An all-in-one booking web app that takes the headache out of managing event spaces. Vendors can browse open booths, check real-time availability, and reserve their spots online, while event organizers manage booth assignments, payments, and vendor messages from a single dashboard."
                     img={project1}
                     link="https://lotusfusionexpo.com"
                     />
@@ -84,8 +84,8 @@ const projects = () => {
                 <div className='col-span-6 sm:col-span-12'>
                 <Project
                     type="Windows Desktop App"
-                    title="BuzzHive CRM — Windows Desktop CRM"
-                    summary="An offline-first client management and analytics application engineered with .NET 9, .NET MAUI (MVVM), and SQLCipher-encrypted SQLite. Built for data-sensitive businesses, BuzzHive CRM features dynamic custom field management, high-speed multi-criteria filtering (Syncfusion DataGrid), an analytics reporting dashboard, search history tracking, audit logs, and automated database backups. Includes MailKit-powered SMTP automation for one-click subscription renewal alerts and password-protected CSV data portability."
+                    title="BuzzHive CRM – Desktop Client & Subscription Manager"
+                    summary="A fast, secure desktop app built for businesses that want complete offline control over their customer records. BuzzHive lets you organize clients with custom fields, filter thousands of records in seconds, and track business trends through a built-in analytics dashboard. It also sends automated email reminders to customers with expiring subscriptions in a single click, keeps automatic backups with full activity logs, and protects your data with bank-grade encryption."
 link={"#"}                    
 img={project2}
                     />
@@ -93,8 +93,8 @@ img={project2}
                 <div className='col-span-6 sm:col-span-12'>
 <Project
   type="Website"
-  title="Melody Prabha – Vocalist & Singer"
-  summary="Designed and deployed the official portfolio site for Prabha Subhadra, renowned as the 'Lata Mangeshkar of UAE'. Highlights include performance types, media gallery, contact form with email automation, and SEO-optimized metadata."
+  title="Melody Prabha – Official Artist Website"
+  summary="A sleek, mobile-friendly portfolio website designed for renowned vocalist Prabha Subhadra. Built to showcase live performances, media galleries, and booking inquiries with automated email handling and search-engine optimization so fans and event organizers can easily connect."
   link="https://melodyprabha.com"
   img={project3} // Replace with your imported image reference
 />
